@@ -1,19 +1,19 @@
-import PropTypes from 'prop-types';
-import { useState } from 'react';
+// import PropTypes from 'prop-types';
+// import { useState } from 'react';
 
-function HelloWorld({message}) {
+// function HelloWorld({message}) {
 
-  const [count, setCount] = useStatete(0)
+//   const [count, setCount] = useStatete(0)
 
-  useEffect(() => {
+//   useEffect(() => {
     
-  }, []);
+//   }, []);
 
-  return <div>{message}</div>
-}
+//   return <div>{message}</div>
+// }
 
-HelloWorld.propTypes = {
-  message: PropTypes.string
-}
+// HelloWorld.propTypes = {
+//   message: PropTypes.string
+// }
 
-export default HelloWorld;
+// export default HelloWorld;

@@ -1,12 +1,10 @@
-import { useCallback } from 'react';
-import './App.css';
-import HelloWorld from './components/HelloWorld';
+import 'tailwindcss/tailwind.css'
 
 function App() {
   return (
     <div>
       <div className="is-blue">
-        <HelloWorld message="howdy world!" />
+        <h1 className="bg-red-200">Hello World!</h1>
       </div>
     </div>
   );
@@ -15,9 +13,3 @@ function App() {
 export default App;
 
 
-function Alert({message, color}) {
-  const handleChange = useCallback(e => {
-    
-  },[])
-  return <div className={`is-alert ${color}`}>{message}</div>;
-}
