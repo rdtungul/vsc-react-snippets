@@ -1,5 +1,6 @@
 write some notes
 
 - [x] todo this
-- [] todo 2
+- [x] todo 2
 - [] todo 3
+- [] todo 4
